@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="bck.css">
+    <title>Building Tools Dictionary</title>
+    <style>
+      
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      .search-container {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      #searchTerm {
+        width: 60%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid gray;
+      }
+
+      #searchButton {
+        width: 20%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        background-color: lightgray;
+        cursor: pointer;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th, td {
+        padding: 10px;
+        border: 1px solid gray;
+        text-align: left;
+      }
+
+      #noResults {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+        display: none;
+      }
+  .animated-element {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <a href="https://www.facebook.com/dreamer4574"><img src="fb.png" alt="Facebook" style="width:50px;height:50px;"></a>
+      <a href="https://github.com/UndoneMajor"><img src="git.png" alt="Github" style="width:50px;height:50px;"></a>
+    </div>
+    <div class="container">
+      <div class="search-container">
+        <input type="text" id="searchTerm" placeholder="Search">
+        <button id="searchButton" onclick="search()">Search</button>
+      </div>
+      <table id="dictionary">
+        <tr>
+          <th>Name</th>
+          <th>Definition</th>
+        </tr>
+        <tr>
+          <td>Hammer</td>
+          <td>A tool used for driving nails, or breaking objects apart.  <a href="https://en.wikipedia.org/wiki/Hammer"> Wiki</a>      </td>
+        </tr>
+        <tr>
+          <td>Drill</td>
+          <td>A tool used for making holes in hard materials, such as wood or metal.  <a href="https://en.wikipedia.org/wiki/Drill"> Wiki</a></td>
+        </tr>
+        <tr>
+          <td>ScrewDriver</td>
+          <td>A tool used for turning screws, usually to fasten objects together.  <a href="https://en.wikipedia.org/wiki/Screwdriver"> Wiki</a></td>
+        </tr>
+        <tr>
+          <td>Wrench</td>
+          <td>A tool used for tightening bolts and nuts, or to turn pipes and other cylindrical objects.  <a href="https://en.wikipedia.org/wiki/Wrench"> Wiki</a></td>
+        </tr>
+        <tr>
+          <td>Pickaxe</td>
+          <td>It is used for breaking rocks or hard ground.  <a href="https://en.wikipedia.org/wiki/Pickaxe"> Wiki</a></td>
+        </tr>
+        <tr>
+          <td>Hand Saws</td>
+          <td>Hand saws are used to cut pieces of wood into different shapes.  <a href="https://en.wikipedia.org/wiki/hand_saws"> Wiki</a></td>
+        </tr>
+        <tr>
+          <td>Digging bars</td>
+          <td>Common uses of digging bars include breaking up clay, concrete, frozen ground, and other hard materials, moving or breaking up tree roots and obstacles, and making holes in the ground for fence posts.  <a href="https://en.wikipedia.org/wiki/Digging_bar"> Wiki</a></td>
+        </tr>
+        <tr>
+          <td>Pickaxe</td>
+          <td>It is used for breaking rocks or hard ground.  <a href="https://en.wikipedia.org/wiki/Pickaxe"> Wiki</a></td>
+        </tr>
+      </table>
+      <div id="noResults"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

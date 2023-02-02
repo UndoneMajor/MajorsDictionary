@@ -1,0 +1,29 @@
+
+table {
+    background-color: #f0f0f0;
+    user-select: none;
+  }
+  
+body {
+  
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background: linear-gradient(to left, #316bc8, #bb4bf8, #02b989);
+    background-size: 200% auto;
+    animation: gradientBG 10s ease infinite;
+  }
+  
+  
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
