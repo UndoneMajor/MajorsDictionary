@@ -1,6 +1,6 @@
 body{
     background: radial-gradient(circle,#24246e,#06051f);
-    height: 100vh;
+    height: 10vh;
 }
 .wrapper span{
     position: fixed;
@@ -72,22 +72,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-}
-.content h2{
-    -webkit-text-fill-color: #fff;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #fff;
-    font-family: montserrat;
-    font-size: 80px;
-    text-transform: uppercase;
-    letter-spacing: 12px;
-    text-align: center;
-    line-height: 0.9;
-}
-.content h2 b{
-    -webkit-text-fill-color: transparent;
-    font-size: 65px;
+    height: 10vh;
 }
 @keyframes animate{
     0%{
