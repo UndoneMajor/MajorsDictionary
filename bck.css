@@ -11,7 +11,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 13px;
     background: linear-gradient(to left, #316bc8, #bb4bf8, #02b989, #1ba9c5);
-    background-size: 200% auto;
+    background-size: 100% auto;
     animation: gradientBG 8s ease infinite;
   }
   
