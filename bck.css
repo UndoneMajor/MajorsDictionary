@@ -2,15 +2,17 @@
 table {
     background-color: #f0f0f0;
     user-select: none;
+    
   }
   
 body {
   
+  
     font-family: Arial, sans-serif;
-    font-size: 16px;
-    background: linear-gradient(to left, #316bc8, #bb4bf8, #02b989);
+    font-size: 13px;
+    background: linear-gradient(to left, #316bc8, #bb4bf8, #02b989, #0eab67);
     background-size: 200% auto;
-    animation: gradientBG 10s ease infinite;
+    animation: gradientBG 8s ease infinite;
   }
   
   
@@ -22,8 +24,7 @@ body {
       background-position: 100% 50%;
     }
     100% {
-      background-position: 0% 50%;
+      background-position: 0% 100%;
     }
   }
-  
   
