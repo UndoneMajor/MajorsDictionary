@@ -5,13 +5,24 @@
     <title>Major's dictionary</title>
     <p id="text" style="color: yellow; float: right;"></p>
 
-<div class="background-animation" style="background-color: black; position: absolute; top: 0; bottom: 0; left: 0; right: 0; overflow: hidden;">
-  <div class="star" style="position: absolute; background-color: white; border-radius: 50%; animation: animateStar 5s linear infinite;"></div>
-  <div class="star" style="position: absolute; background-color: white; border-radius: 50%; animation: animateStar 5s linear infinite;"></div>
-  <div class="star" style="position: absolute; background-color: white; border-radius: 50%; animation: animateStar 5s linear infinite;"></div>
-  <div class="star" style="position: absolute; background-color: white; border-radius: 50%; animation: animateStar 5s linear infinite;"></div>
-  <div class="star" style="position: absolute; background-color: white; border-radius: 50%; animation: animateStar 5s linear infinite;"></div>
-</div>
+.animated-background {
+  background: linear-gradient(to right, #36454F , #151B54);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 
     <script>
