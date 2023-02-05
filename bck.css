@@ -13,6 +13,13 @@ body {
     font-size: 13px;
 
   }
-  
+
+ .custom-background {
+ background-image: url('path/to/your/background-image.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
+}
+
   
   
