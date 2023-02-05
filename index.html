@@ -5,31 +5,23 @@
     <title>Major's dictionary</title>
     <p id="text" style="color: yellow; float: right;"></p>
 <style>
-  @keyframes gradient {
+  @keyframes bg-color {
     0% {
-      background-position: 0% 50%;
+      background-color: #ff0000;
     }
     50% {
-      background-position: 100% 50%;
+      background-color: #00ff00;
     }
     100% {
-      background-position: 0% 50%;
+      background-color: #0000ff;
     }
   }
 
   body {
-    background: linear-gradient(to right, #ff0000, #0000ff);
-    animation: gradient 10s ease infinite;
-    background-size: 400% 400%;
-  }
-
-  @media (max-width: 600px) {
-    body {
-      background-size: 200% 200%;
-      animation: gradient 5s ease infinite;
-    }
+    animation: bg-color 5s ease-in-out infinite;
   }
 </style>
+
     <script>
       function randomText() {
         const texts = [
