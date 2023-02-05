@@ -1,27 +1,4 @@
-.animated-background {
-  width: 100%;
-  height: 100%;
-  background-color: #FFC107;
-  animation: color-change 15s ease infinite;
-}
 
-@keyframes color-change {
-  0% {
-    background-color: #FFC107;
-  }
-  25% {
-    background-color: #ff5722;
-  }
-  50% {
-    background-color: #cddc39;
-  }
-  75% {
-    background-color: #03a9f4;
-  }
-  100% {
-    background-color: #FFC107;
-  }
-}
 
 table {
     background-color: #f0f0f0;
